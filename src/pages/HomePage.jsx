@@ -107,7 +107,7 @@ function HomePage() {
     {
       degree: 'Matriculation (CBSE - Class 10)',
       institution: 'The Delhi Public School',
-      period: '2019 - 2020',
+      period: '2018 - 2019',
       score: 'Percentage: 90.5%',
     }
   ];
