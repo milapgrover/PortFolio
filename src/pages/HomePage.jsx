@@ -46,7 +46,7 @@ function HomePage() {
         'MySQL database for data persistence',
       ],
       githubLink: 'https://github.com/milapgrover/Cricket-Application',
-      liveLink: 'https://cricket-application-nine.vercel.app/',
+      
     },
     {
       title: '# DocuMind AI ',
