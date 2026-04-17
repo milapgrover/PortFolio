@@ -49,7 +49,7 @@ function HomePage() {
       
     },
     {
-      title: '# DocuMind AI ',
+      title: 'DocuMind AI ',
       description: 'DocuMind AI is an intelligent document assistant that allows users to upload documents and interact with them using AI. It can extract text from PDFs, answer questions based on document content, and generate concise summaries using advanced AI models.',
       techStack: ['React', 'Spring Boot', 'MySQL', 'REST API','Ollama (Local AI - Phi Model)', 'OpenAI'],
       features: [
