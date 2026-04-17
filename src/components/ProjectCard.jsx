@@ -12,33 +12,32 @@ function ProjectCard({ title, description, techStack, features, delay = 0, githu
       className="glass-card rounded-2xl p-8 transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 hover:border-primary/20 flex flex-col h-full"
     >
       <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 mb-4">
-        <h3 className="text-2xl font-bold text-foreground">{title}</h3>
-        {githubLink && (
-  <a
-    href={githubLink}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium transition-all duration-200 hover:bg-primary/90 active:scale-95 shadow-sm shadow-primary/20 shrink-0"
-  >
-     View on GitHub
-  </a>
-  
-)}
-      </div>
-      <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 mb-4">
-        <h3 className="text-2xl font-bold text-foreground">{title}</h3>
-        {githubLink && (
-  <a
-    href={liveLink}
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium transition-all duration-200 hover:bg-primary/90 active:scale-95 shadow-sm shadow-primary/20 shrink-0"
-  >
-     View Live
-  </a>
-  
-)}
-      </div>
+  <h3 className="text-2xl font-bold text-foreground">{title}</h3>
+
+  <div className="flex gap-3">
+    {githubLink && (
+      <a
+        href={githubLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-medium transition-all duration-200 hover:bg-primary/90 active:scale-95 shadow-sm"
+      >
+        GitHub
+      </a>
+    )}
+
+    {liveLink && (
+      <a
+        href={liveLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 px-4 py-2 bg-green-500 text-white rounded-lg text-sm font-medium transition-all duration-200 hover:bg-green-600 active:scale-95 shadow-sm"
+      >
+        Live
+      </a>
+    )}
+  </div>
+</div>
       <p className="text-muted-foreground leading-relaxed mb-6 flex-grow">{description}</p>
       
       <div className="mb-6">
