@@ -45,7 +45,21 @@ function HomePage() {
         'Secure backend with Spring Boot',
         'MySQL database for data persistence',
       ],
-      githubLink: 'https://github.com/milapgrover',
+      githubLink: 'https://github.com/milapgrover/Cricket-Application',
+      liveLink: 'https://cricket-application-nine.vercel.app/',
+    },
+    {
+      title: '',
+      description: 'A real-time cricket scoring application that provides live match updates, player statistics, and match analytics. Built with modern web technologies to deliver a seamless user experience.',
+      techStack: ['React', 'Spring Boot', 'MySQL', 'REST API'],
+      features: [
+        'Real-time score updates and match statistics',
+        'Player performance tracking and analytics',
+        'Responsive design for mobile and desktop',
+        'Secure backend with Spring Boot',
+        'MySQL database for data persistence',
+      ],
+      githubLink: 'https://github.com/milapgrover/DocuMind-AI',
     },
   ];
 
@@ -91,7 +105,7 @@ function HomePage() {
       score: 'Percentage: 87.4%',
     },
     {
-      degree: 'Secondary Education (CBSE - Class 10)',
+      degree: 'Matriculation (CBSE - Class 10)',
       institution: 'The Delhi Public School',
       period: '2019 - 2020',
       score: 'Percentage: 90.5%',
